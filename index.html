@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京JS会议分享</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<link rel="stylesheet" href="./flexslider.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="main" role="main" style="width: 800px; margin: auto">
+    <section class="slider">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+	    	    <img src="images/幻灯片1.png"/>
+	    		</li>
+	    		<li>
+	    	    <img src="images/幻灯片2.png"/>
+	    		</li>
+	    		<li>
+	    	    <img src="images/幻灯片3.png"/>
+	    		</li>
+	    		<li>
+	    	    <img src="images/幻灯片4.png"/>
+	    		</li>
+          <li>
+            <img src="images/幻灯片5.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片6.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片7.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片8.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片9.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片10.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片11.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片12.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片13.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片14.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片15.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片16.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片17.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片18.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片19.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片20.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片21.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片22.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片23.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片24.png"/>
+          </li>
+          <li>
+            <img src="images/幻灯片25.png"/>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script src="./jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <!-- FlexSlider -->
+  <script defer src="./jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationSpeed: 200,
+        animationLoop: false,
+        itemWidth: 800,
+        allowOneSlide: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
